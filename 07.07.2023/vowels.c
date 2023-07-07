@@ -1,3 +1,5 @@
+// 1.Գրեք ծրագիր, որը թույլ կտա օգտվողին մուտքագրել տառ, ստուգել և տպել տառը բաղաձայն է, թե ձայնավոր:
+
 #include <stdio.h>
 
 int main (){
@@ -19,7 +21,7 @@ int main (){
 	     printf("The letter is a vowels\n");
 	     break;
      default:
-	     printf("Invalid input\n");
+	     printf("The letter is a consonants\n");
      }
 }
 
